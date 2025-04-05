@@ -2,7 +2,7 @@ import axios from "axios";
 
 // Create an Axios instance with base URL
 const api = axios.create({
-  baseURL: "https://lakshay-path.onrender.com/api", 
+  baseURL: "https://counclingbackend.vercel.app/api", 
   // baseURL: "http://localhost:5000/api", 
   withCredentials: true,
 });
